@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Encriptador-LuisCorrea</title>
+    <link rel="stylesheet" href="reset.css".css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo-titulo">
+        <img class="logo" src="img/Logo.png" alt="Logo-Alura" />
+        <h1 class="titulo-principal">Encriptador de texto</h1>
+      </div>
+    </header>
+    <main>
+      <section class="seccion-1">
+        <div class="div-textarea">
+          <textarea
+            class="textarea"
+            placeholder="Ingrese el texto aquí"
+          ></textarea>
+        </div>
+        <div class="botones">
+          <img
+            src="img/bi_exclamation-circle-fill.png"
+            alt="Signo-Admiracion"
+          />
+          <p>Solo letras minusculas y sin acentos</p>
+          <input type="button" class="boton-encriptar" value="Encriptar" />
+          <input
+            type="button"
+            class="boton-desencriptar"
+            value="Desencriptar"
+          />
+        </div>
+      </section>
+      <section class="seccion-2">
+        <div class="ocultar">
+          <div class="contenedor">
+            <div class="div-muneco">
+              <img src="img/Muñeco.png" alt="Muñeco" />
+            </div>
+            <div class="div-indicaciones">
+              <h3>
+                Ningún mensaje fue <br />
+                encontrado
+              </h3>
+              <p><br />Ingresa el texto que deseas desencriptar o encriptar</p>
+            </div>
+          </div>
+        </div>
+        <div class="div-btn-copiar">
+          <button class="boton-copiar">Copiar</button>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script type="text/javascript" src="scrip.js"></script>
+</html>
